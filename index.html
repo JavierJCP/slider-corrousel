@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carrousel</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./styles.css" />
+    <!-- icon -->
+    <link rel="icon" href="./images/slider.svg" />
+  </head>
+  <body>
+    <section class="slider">
+      <div class="slider__container container">
+        <img src="./images/arrowLeft.svg" class="slider__arrow" id="before" />
+
+        <section class="slider__body slider__body--show" data-id="1">
+          <div class="slider__texts">
+            <h2 class="subtitle">Hello, My name is George Bluth!!</h2>
+            <p class="slider__review">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+              dolores harum amet fugit eius vero?
+            </p>
+          </div>
+
+          <figure class="slider__picture">
+            <img
+              src="https://reqres.in/img/faces/1-image.jpg"
+              class="slider__img"
+            />
+          </figure>
+        </section>
+
+        <section class="slider__body" data-id="2">
+          <div class="slider__texts">
+            <h2 class="subtitle">Hello, My name is Janet Weaver!!</h2>
+            <p class="slider__review">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+              dolores harum amet fugit eius vero?
+            </p>
+          </div>
+
+          <figure class="slider__picture">
+            <img
+              src="https://reqres.in/img/faces/2-image.jpg"
+              class="slider__img"
+            />
+          </figure>
+        </section>
+
+        <section class="slider__body" data-id="3">
+          <div class="slider__texts">
+            <h2 class="subtitle">Hello, My name is Emma Wong!!</h2>
+            <p class="slider__review">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+              dolores harum amet fugit eius vero?
+            </p>
+          </div>
+
+          <figure class="slider__picture">
+            <img
+              src="https://reqres.in/img/faces/3-image.jpg"
+              class="slider__img"
+            />
+          </figure>
+        </section>
+
+        <img src="./images/arrowRight.svg" class="slider__arrow" id="next" />
+      </div>
+    </section>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
